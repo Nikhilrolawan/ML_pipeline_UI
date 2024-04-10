@@ -1,7 +1,7 @@
 import pickle
 from streamlit_option_menu import option_menu
 import streamlit as st
-heart_model=pickle.load(open('D:\Flask\model_pipeline.pkl','rb'))
+heart_model=pickle.load(open('model/model_pipeline.pkl','rb'))
 with st.sidebar:
   selected=option_menu('Risk_Assesment',
                        ['Heart_Risk_Prediction'],
