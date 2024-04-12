@@ -27,7 +27,7 @@ This project is a Streamlit web application for predicting heart risk using a ma
 - Fill in the required information and click the "Test Heart Risk" button to get predictions.
   
 
-![Screenshot](Screenshot 2024-04-13 002750.png)
+![Screenshot](Screenshot.png)
 
 ## deploying using docker
 Install Docker from official website according to your system.
