@@ -11,7 +11,7 @@ if(selected=='Heart_Risk_Prediction'):
   st.title('Heart Risk Prediction Using ML')
   age=st.text_input('Age')
   sex=st.text_input('sex type(male=1 or female=0)')
-  cp=st.text_input('chest pain (yes=1 or no=1)')
+  cp=st.text_input('chest pain (yes=1 or no=0)')
   trestbps=st.text_input('Resting BP')
   chol=st.text_input('Serum cholestrol(mg/dl)')
   fbs=st.text_input('Fasting blood sugar>120(mg/dl)')
