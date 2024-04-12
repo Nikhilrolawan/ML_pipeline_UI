@@ -14,7 +14,7 @@ if(selected=='Heart_Risk_Prediction'):
   cp=st.text_input('chest pain (yes=1 or no=0)')
   trestbps=st.text_input('Resting BP')
   chol=st.text_input('Serum cholestrol(mg/dl)')
-  fbs=st.text_input('Fasting blood sugar>120(mg/dl)')
+  fbs=st.text_input('Fasting blood sugar (mg/dl)')
   restecg=st.text_input('resting ECG (values 0,1,2)')
   thalach=st.text_input('Max heart rate achieved')
   exang=st.text_input('Exercise induced angina')
