@@ -4,6 +4,10 @@ FROM python:3.10-slim
 # This copies everything in your current directory to the /app directory in the container.
 COPY . /app
 
+# Copy the model directory
+COPY model /app/model/
+
+
 # This sets the /app directory as the working directory for any RUN, CMD, ENTRYPOINT, or COPY instructions that follow.
 WORKDIR /app
 
