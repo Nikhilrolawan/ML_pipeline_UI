@@ -9,7 +9,7 @@ This project is a Streamlit web application for predicting heart risk using a ma
 
 - Clone the repository with
 ```bash
- https://github.com/Nikhilrolawan/ml_pipeline_ui.git
+ git clone https://github.com/Nikhilrolawan/ml_pipeline_ui.git
 ```
 
 - Install dependencies with
